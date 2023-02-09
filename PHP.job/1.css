@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* clearfix用 */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.wrapper {
+  width: 400px;
+  margin: auto;
+}
+
+.blue-box {
+  width: 400px;
+  height: 100px;
+  background-color:#141f40;
+}
+
+.red-box2{
+ position: relative;
+ top:20px;
+ right: 20px;
+ bottom: 20px;
+  background-color: #a9004b;
+  width: 40px;
+height: 40px;
+box-sizing: 40px;
+float:right;
+border: solid 7px white;
+
+  
+  
+}
+.green-box {
+  width: 150px;
+  height: 250px;
+  background-color:#80bfa8;
+  float: left;
+}
+/* redとオレンジを右に250px移動 */
+.midright {
+  width: 250px;
+  float: left;
+}
+
+.midright2 {
+  width: 150px;
+ float: left;
+}
+
+.red-box {
+  width: 250px;
+  height: 250px;
+  background-color:#8c2727;
+  float:right;
+  
+}
+
+.orange-box2{
+ 
+background-color: #ff863f;
+  height: 40px;
+  width: 150px;
+  margin: auto;
+  border: solid 7px white;
+margin-top: 40px;
+margin-bottom: 5px;
+  
+}
+  .orange-box3{
+  background-color: #ff863f;
+  height: 50px;
+  width: 150px;
+  margin: auto;
+  border: solid 7px white;
+margin-bottom: 5px;
+}   
+
+   .orange-box4{
+  
+  background-color: #ff863f;
+  height: 40px;
+  width: 150px;
+  margin: auto;
+  border: solid 7px white;
+margin-bottom: 35px;
+}  
+  
+
+
+.orange-box {
+  width: 400px;
+  height: 100px;
+  background-color:#d98d30;
+  float:left;
+}
+

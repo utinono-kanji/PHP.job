@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/* clearfix用 */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.wrapper {
+  width: 400px;
+  margin: auto;
+}
+
+.blue-box {
+  width: 400px;
+  height: 100px;
+  background-color:#141f40;
+}
+
+.green-box {
+  width: 150px;
+  height: 250px;
+  background-color:#80bfa8;
+  float: left;
+}
+
+.midright {
+  width: 250px;
+  float: left;
+}
+
+.midright2 {
+  width: 150px;
+ float: left;
+}
+
+.yellow-box {
+  width: 150px;
+  height: 50px;
+  background-color:#dbd400;
+}
+
+.lightblue-box {
+  width: 150px;
+  height: 100px;
+  background-color:#0093b7;
+}
+
+.pink-box {
+  width: 100px;
+  height: 150px;
+  background-color:#ff9e6b;
+  float: left;
+}
+
+.red-box {
+  width: 250px;
+  height: 100px;
+  background-color:#8c2727;
+}
+
+.orange-box {
+  width: 400px;
+  height: 100px;
+  background-color:#d98d30;
+}
