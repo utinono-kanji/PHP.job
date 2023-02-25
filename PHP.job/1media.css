@@ -18,10 +18,13 @@
   width: 200px;
   height: 250px;
   }
-  .red-box2{
-float:none;
+.red-box2{
 
-  }
+margin-right: 50px;
+
+  } 
+  
+     
 .green-box{
   width: 200px;
   height: 100px;
