@@ -1,8 +1,7 @@
 <?php
-$fruits =["apple" =>"といったらりんご","orenge" =>"といったらみかん","peach" =>"といったらもも"];
-foreach($fruits as $kry=> $value){
+$fruits =["apple" =>"りんご","orenge" =>"みかん","peach" =>"もも"];
+foreach($fruits as $key => $value){
+  echo $key . "といったら" .$value;
   echo '<br>';
- echo $kry;
- echo$value; 
 }
 ?>
