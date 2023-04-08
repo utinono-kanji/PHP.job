@@ -14,6 +14,6 @@
   <?php } ?>
 </select><br>
 
-<input type= "hidden" name ="hidden_param" value = "隠しパラメータから" />
+
 <input type="submit" value= "申込">
 </form>
